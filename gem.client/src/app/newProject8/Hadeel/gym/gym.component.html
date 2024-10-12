@@ -1,0 +1,48 @@
+<!-- Banner Style One Start -->
+<section class="banner-style-one">
+  <div class="parallax" style="background-image: url(assets/images/pattren-3.png);"></div>
+  <div class="container">
+    <div class="row">
+      <div class="banner-details">
+        <h2>Gyms & Classes</h2>
+        <p>Our values have vaulted us to the top of our industry.</p>
+      </div>
+    </div>
+  </div>
+  <div class="breadcrums">
+    <div class="container">
+      <div class="row">
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-house"></i>
+              <p>Home</p>
+            </a>
+          </li>
+          <li class="current">
+            <p>Gyms</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gap service-style-one">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6" *ngFor="let item of GymArray">
+        <div class="service-data">
+          <i class="flaticon-gym-equipment"></i>
+          <h3><a routerLink="/GymDetails/{{item.id}}">{{item.name}}</a></h3>
+          <p>{{item.description}}</p>
+          <a class="icon" routerLink="/GymDetails/{{item.id}}">
+            <i class="fa-solid fa-angles-right"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

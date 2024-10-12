@@ -1,0 +1,80 @@
+<!-- Banner Style One Start -->
+<section class="banner-style-one">
+  <div class="parallax" style="background-image: url(assets/images/pattren-3.png);"></div>
+  <div class="container">
+    <div class="row">
+      <div class="banner-details">
+        <h2>Gyms & Classes</h2>
+        <p>Our values have vaulted us to the top of our industry.</p>
+      </div>
+    </div>
+  </div>
+  <div class="breadcrums">
+    <div class="container">
+      <div class="row">
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-house"></i>
+              <p>Home</p>
+            </a>
+          </li>
+          <li class="current">
+            <p>Gyms</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="gap blog-style-one team-detail detail-page">
+  <div class="container">
+    <div class="row">
+
+
+      <div class="col-lg-12">
+
+
+
+        <div class="row align-items-end">
+          <div class="col-lg-6">
+            <div class="team-data">
+              <h3>{{DetailsArray.name}}</h3>
+              <p>{{DetailsArray.trainer}}</p>
+              <ul class="t-contact">
+                <li>
+                  <span>Description :</span>
+                  <p>{{DetailsArray.description}}</p>
+                </li>
+              </ul>
+              <div class="t-tel">
+                <div class="data">
+
+                  <div class="t-sec">
+                    <p>The Monthly Subscription:</p>
+                    <span><b>JOD:</b>{{DetailsArray.price}}</span>
+                  </div>
+                </div>
+                <a  (click)="AddUserSubScribtion(DetailsArray.id)" class="theme-btn">Subscribtion Now </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="image reveal1">
+              <figure>
+                <img src="{{DetailsArray.image}}" alt="Gym Detail Image One">
+              </figure>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</section>

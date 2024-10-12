@@ -1,0 +1,58 @@
+<!-- Banner Style One Start -->
+<section class="banner-style-one">
+  <div class="parallax" style="background-image: url(assets/images/pattren-3.png);"></div>
+  <div class="container">
+    <div class="row">
+      <div class="banner-details">
+        <h2>Login and Register</h2>
+        <p>our values and vaulted us to the top of our industry.</p>
+      </div>
+    </div>
+  </div>
+  <div class="breadcrums">
+    <div class="container">
+      <div class="row">
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-house"></i>
+              <p>Home</p>
+            </a>
+          </li>
+          <li class="current">
+            <p>Login and Register</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Banner Style One End -->
+<!-- Login Register Start -->
+<section class="gap login-register">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 justify-content-center">
+        <div class="box login">
+          <h3>LogIn Your Account</h3>
+          <form #registrationForm="ngForm" (ngSubmit)="loginNewUser(registrationForm.value)">
+            <input type="email" name="email" placeholder="Enter Email Address" ngModel>
+            <input type="password" name="password" placeholder="Password" ngModel>
+            <div class="remember">
+              <div class="first">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">Remember me</label>
+              </div>
+              <div class="second">
+                <a routerLink="/Register">For Register</a>
+              </div>
+            </div>
+            <button type="submit" class="theme-btn"> Login</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Login Register End -->

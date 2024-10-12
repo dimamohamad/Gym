@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\d\\Desktop\\fitZone\\Gym\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{746F44B1-C055-4A4B-80CE-0717C4A6B533}|GEM.Server\\GEM.Server.csproj|c:\\users\\d\\desktop\\fitzone\\gym\\gem.server\\controller\\nutrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{746F44B1-C055-4A4B-80CE-0717C4A6B533}|GEM.Server\\GEM.Server.csproj|solutionrelative:gem.server\\controller\\nutrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D904C59F-51EB-43D1-9D62-9CEA1574C1A1}|gem.client\\gem.client.esproj|c:\\users\\d\\desktop\\fitzone\\gym\\gem.client\\gem.client.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D904C59F-51EB-43D1-9D62-9CEA1574C1A1}|gem.client\\gem.client.esproj|solutionrelative:gem.client\\gem.client.esproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NutrationController.cs",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\fitZone\\Gym\\GEM.Server\\Controller\\NutrationController.cs",
+              "RelativeDocumentMoniker": "GEM.Server\\Controller\\NutrationController.cs",
+              "ToolTip": "C:\\Users\\d\\Desktop\\fitZone\\Gym\\GEM.Server\\Controller\\NutrationController.cs",
+              "RelativeToolTip": "GEM.Server\\Controller\\NutrationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T13:57:30.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "gem.client",
+              "DocumentMoniker": "C:\\Users\\d\\Desktop\\fitZone\\Gym\\gem.client\\gem.client.esproj",
+              "RelativeDocumentMoniker": "gem.client\\gem.client.esproj",
+              "ToolTip": "C:\\Users\\d\\Desktop\\fitZone\\Gym\\gem.client\\gem.client.esproj",
+              "RelativeToolTip": "gem.client\\gem.client.esproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-12T13:57:21.553Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
