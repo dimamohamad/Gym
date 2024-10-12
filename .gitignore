@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/GEM.Server/Models/MyDbContext.cs
+/GEM.Server/appsettings.json
