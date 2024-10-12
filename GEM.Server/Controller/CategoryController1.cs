@@ -36,7 +36,7 @@ namespace GEM.Server.Controller
             var addcategory = new Category
             {
                 CategoryName = addcat.CategoryName,
-               
+
             };
 
             _db.Categories.Add(addcategory);
@@ -52,7 +52,7 @@ namespace GEM.Server.Controller
 
 
             category.CategoryName = update.CategoryName;
-         
+
             _db.Categories.Update(category);
             _db.SaveChanges();
 

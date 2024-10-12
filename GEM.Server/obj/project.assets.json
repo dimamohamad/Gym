@@ -8197,23 +8197,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\d\\.nuget\\packages\\": {},
+    "C:\\Users\\Orange\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\d\\Desktop\\fitZone\\Gym\\GEM.Server\\GEM.Server.csproj",
+      "projectUniqueName": "C:\\Users\\Orange\\source\\repos\\Gym\\GEM.Server\\GEM.Server.csproj",
       "projectName": "GEM.Server",
-      "projectPath": "C:\\Users\\d\\Desktop\\fitZone\\Gym\\GEM.Server\\GEM.Server.csproj",
-      "packagesPath": "C:\\Users\\d\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\d\\Desktop\\fitZone\\Gym\\GEM.Server\\obj\\",
+      "projectPath": "C:\\Users\\Orange\\source\\repos\\Gym\\GEM.Server\\GEM.Server.csproj",
+      "packagesPath": "C:\\Users\\Orange\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Orange\\source\\repos\\Gym\\GEM.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\d\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Orange\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

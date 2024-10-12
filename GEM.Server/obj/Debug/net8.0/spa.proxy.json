@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:4200",
 "RedirectUrl": "",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\d\\Desktop\\fitZone\\Gym\\GEM.Server\\..\\gem.client",
+"WorkingDirectory": "C:\\Users\\Orange\\source\\repos\\Gym\\GEM.Server\\..\\gem.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

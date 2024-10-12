@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "+3SiHo+4M0kv7Ficw1fXPQS64s4Wamx4pXC0uJUi+dc=",
+  "Hash": "UEw3+WyDk5ZD1o4HZJtnPCA2EvD27eEHVMuUBbn2s7U=",
   "Source": "GEM.Server",
   "BasePath": "_content/GEM.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\d\\Desktop\\fitZone\\Gym\\gem.client\\gem.client.esproj",
+      "Identity": "C:\\Users\\Orange\\source\\repos\\Gym\\gem.client\\gem.client.esproj",
       "Version": 2,
       "Source": "gem.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
