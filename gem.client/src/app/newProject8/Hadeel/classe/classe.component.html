@@ -1,21 +1,52 @@
+<!-- Banner Style One Start -->
+<section class="banner-style-one">
+  <div class="parallax" style="background-image: url(assets/images/pattren-3.png);"></div>
+  <div class="container">
+    <div class="row">
+      <div class="banner-details">
+        <h2>Classes</h2>
+        <p>Our values have vaulted us to the top of our industry.</p>
+      </div>
+    </div>
+  </div>
+  <div class="breadcrums">
+    <div class="container">
+      <div class="row">
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-house"></i>
+              <p>Home</p>
+            </a>
+          </li>
+          <li class="current">
+            <p>Classes</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 <section class="gap project-completed our-projects-one">
   <div class="prj-post">
     <div class="container">
 
       <!--rama-->
-      <div class="row align-items-center">
+      <div class="row align-items-center" *ngFor="let item of ClassArray">
         <div class="col-lg-6">
           <div class="proj-data">
-            <h3><a href="project-detail.html">Fitness Ball</a></h3>
-            <p>Lorem ipsum dolor sit amet, consec tetur adipi scing elit. Quisque eget  amet, consec tetu augue ante, sed bibend umigula.</p>
+            <h3><a routerLink="/classDetails/{{item.id}}">{{item.name}}</a></h3>
+            <p>
+              {{item.description}}
+            </p>
             <div class="loc-date">
               <div>
                 <span>LOCATION:</span>
                 <span>United State</span>
               </div>
-              <div>
+              <div *ngFor="let time of item.classTimes">
                 <span>TIME:</span>
-                <span>Monday: 8pm - 11pm</span>
+                <span>{{time.startTime}} - {{time.endTime}}</span>
               </div>
             </div>
           </div>
@@ -23,31 +54,14 @@
         <div class="col-lg-6">
           <div class="data reveal1 it-reveal-animation">
             <figure>
-              <img src="assets/images/project-img-1.jpg" alt="Our Project One Image 1">
+              <!--<img src="https://localhost:44340/api/Classe/getImages/{{item.image}}" alt="Our Project One Image 1">-->
+              <img src="{{item.image}}" alt="Our Project One Image 1">
+
             </figure>
           </div>
         </div>
       </div>
-
-
     </div>
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="gym-pagination">
-        <nav aria-label="Page navigation example">
-          <ul class="pagination">
-            <li class="page-item"><a class="page-link" href="JavaScript:void(0)"><i class='fa-solid fa-arrow-left-long'></i></a></li>
-            <li class="page-item"><a class="page-link" href="JavaScript:void(0)">01</a></li>
-            <li class="page-item"><a class="page-link" href="JavaScript:void(0)">02</a></li>
-            <li class="page-item"><a class="page-link" href="JavaScript:void(0)">03</a></li>
-            <li class="page-item space"><a class="page-link" href="JavaScript:void(0)">..........</a></li>
-            <li class="page-item"><a class="page-link" href="JavaScript:void(0)">08</a></li>
-            <li class="page-item"><a class="page-link" href="JavaScript:void(0)"><i class='fa-solid fa-arrow-right-long'></i> </a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </div>
 </section>

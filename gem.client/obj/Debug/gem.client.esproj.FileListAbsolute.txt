@@ -1,3 +1,2 @@
-C:\Users\d\Source\Repos\GEM\gem.client\obj\Debug\gem.client.esproj.CoreCompileInputs.cache
-C:\Users\d\Desktop\fitZone\Gym\gem.client\obj\Debug\gem.client.esproj.CoreCompileInputs.cache
-C:\Users\Orange\Source\Repos\Gym\gem.client\obj\Debug\gem.client.esproj.CoreCompileInputs.cache
+C:\Users\d\Desktop\lastfitzone\GEM\gem.client\obj\Debug\gem.client.esproj.CoreCompileInputs.cache
+C:\Users\d\Desktop\gym rebo\Gym\gem.client\obj\Debug\gem.client.esproj.CoreCompileInputs.cache

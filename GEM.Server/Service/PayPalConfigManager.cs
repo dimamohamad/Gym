@@ -11,17 +11,17 @@
 
         public string GetClientId()
         {
-            return _config["clientId"];
+            return "AfMsQi5UnaC5JCH55LaSR5mqiXgCxiCQl9i5fH1tLLzMjMY_CAcCq_bW0Jng3unAhxZRemIi8ckcHDVT";
         }
 
         public string GetClientSecret()
         {
-            return _config["clientSecret"];
+            return "EEgjU7uBGthAolDzlcePVEqGExr_HtgJCgq1rBjQ19iROSneU0QVAyXq7DCvuhhWtKHXhL-QNOMeZJxk";
         }
 
         public string GetMode()
         {
-            return _config["mode"];
+            return "sandbox";
         }
     }
 }

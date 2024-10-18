@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "UEw3+WyDk5ZD1o4HZJtnPCA2EvD27eEHVMuUBbn2s7U=",
+  "Hash": "+dwgumbQybXVlTl/D4zQbVur9Z00Y9XLjU0COEXXbWY=",
   "Source": "GEM.Server",
   "BasePath": "_content/GEM.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Orange\\source\\repos\\Gym\\gem.client\\gem.client.esproj",
+      "Identity": "C:\\Users\\d\\Desktop\\gym rebo\\Gym\\gem.client\\gem.client.esproj",
       "Version": 2,
       "Source": "gem.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

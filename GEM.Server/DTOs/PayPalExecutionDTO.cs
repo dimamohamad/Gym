@@ -7,4 +7,3 @@
         public int UserId { get; set; }  // User Id for order processing
     }
 }
-

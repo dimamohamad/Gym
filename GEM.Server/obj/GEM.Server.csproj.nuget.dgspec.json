@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Orange\\source\\repos\\Gym\\GEM.Server\\GEM.Server.csproj": {}
+    "C:\\Users\\d\\Desktop\\gym rebo\\Gym\\GEM.Server\\GEM.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Orange\\source\\repos\\Gym\\GEM.Server\\GEM.Server.csproj": {
+    "C:\\Users\\d\\Desktop\\gym rebo\\Gym\\GEM.Server\\GEM.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Orange\\source\\repos\\Gym\\GEM.Server\\GEM.Server.csproj",
+        "projectUniqueName": "C:\\Users\\d\\Desktop\\gym rebo\\Gym\\GEM.Server\\GEM.Server.csproj",
         "projectName": "GEM.Server",
-        "projectPath": "C:\\Users\\Orange\\source\\repos\\Gym\\GEM.Server\\GEM.Server.csproj",
-        "packagesPath": "C:\\Users\\Orange\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Orange\\source\\repos\\Gym\\GEM.Server\\obj\\",
+        "projectPath": "C:\\Users\\d\\Desktop\\gym rebo\\Gym\\GEM.Server\\GEM.Server.csproj",
+        "packagesPath": "C:\\Users\\d\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\d\\Desktop\\gym rebo\\Gym\\GEM.Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Orange\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\d\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
             "Microsoft.AspNetCore.SpaProxy": {
               "target": "Package",
               "version": "[8.*-*, )"
@@ -74,9 +78,21 @@
               "target": "Package",
               "version": "[8.0.6, )"
             },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
             "PayPal": {
               "target": "Package",
               "version": "[1.9.1, )"
+            },
+            "PayPalCheckoutSdk": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[46.2.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

@@ -82,7 +82,111 @@ namespace GEM.Server.Controller
         }
 
 
+        [HttpPost("addProduct")]
+        public IActionResult addProduct([FromForm] ProductDto addproduct)
+        {
 
+            var folder = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
+            if (!Directory.Exists(folder))
+            {
+                Directory.CreateDirectory(folder);
+            }
+            var fileImage = Path.Combine(folder, addproduct.Image.FileName);
+            using (var stream = new FileStream(fileImage, FileMode.Create))
+            {
+                addproduct.Image.CopyToAsync(stream);
+
+            }
+
+            var newproduct = new Product
+            {
+                ProductName = addproduct.ProductName,
+                Description = addproduct.Description,
+                Image = addproduct.Image.FileName,
+                Price = addproduct.Price,
+                CategoryId = addproduct.CategoryId,
+            };
+
+            _db.Products.Add(newproduct);
+            _db.SaveChanges();
+            return Ok(newproduct);
+        }
+
+
+
+        [HttpPut("updateProduct/{id}")]
+        public IActionResult updateProduct(int id, [FromForm] UpdateProductDto update)
+        {
+
+            var product = _db.Products.Where(p => p.ProductId == id).FirstOrDefault();
+
+
+
+
+            var folder = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
+            if (!Directory.Exists(folder))
+            {
+                Directory.CreateDirectory(folder);
+            }
+            var fileImage = Path.Combine(folder, update.Image.FileName);
+            using (var stream = new FileStream(fileImage, FileMode.Create))
+            {
+                update.Image.CopyToAsync(stream);
+
+            }
+
+            product.ProductName = update.ProductName;
+            product.Description = update.Description;
+            product.Image = update.Image.FileName;
+            product.Price = update.Price;
+            product.CategoryId = update.CategoryId;
+            _db.Products.Update(product);
+            _db.SaveChanges();
+
+            return Ok(product);
+
+
+        }
+
+
+        [Route("/api/Products/DeleteProduct/{id}")]
+        [HttpDelete]
+        public IActionResult DeleteById(int id)
+        {
+            var product = _db.Products.Find(id);
+
+            if (product != null)
+            {
+                var orderItems = _db.OrderItems.Where(oi => oi.ProductId == id).ToList();
+
+                if (orderItems.Any())
+                {
+                    _db.OrderItems.RemoveRange(orderItems);
+                }
+
+                _db.Products.Remove(product);
+                _db.SaveChanges();
+
+                return NoContent();
+            }
+
+            return NotFound();
+        }
+
+
+        [HttpGet("getImage/{imageName}")]
+        public IActionResult getImage(string imageName)
+        {
+            var pathImage = Path.Combine(Directory.GetCurrentDirectory(), "Uploads", imageName);
+            if (System.IO.File.Exists(pathImage))
+            {
+
+                return PhysicalFile(pathImage, "image/*");
+
+            }
+            return NotFound();
+
+        }
 
 
     }
