@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GEM.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62c93485e7a9b9b8c404aaf27a2489d120f8c852")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e51ae00664d21c7af22666701e70068212851c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("GEM.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GEM.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
